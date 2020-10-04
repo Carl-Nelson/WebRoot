@@ -1,3 +1,27 @@
 .container-fluid {background-color:blanchedalmond;}
 
 div {border:solid;}
+
+.wrapper {
+    display: flex;
+    width:100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background-color: beige; /*all the colors are placeholders at the moment*/
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li.active a {
+    color: purple;
+    /*I'll style this better later, I swear*/
+}

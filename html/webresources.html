@@ -6,30 +6,76 @@
     <meta name="keywords" content="ISIT320, CSS, HTML">
     <meta name="description" content="A list of useful resources on the web.">
     <meta name="author" content="Carl Nelson">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <!--Bootstrap ensures that your webpage displays a sans-serif font on all possible devices and browsers, so that part is already handled!-->
+    
+    <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </head>
 <body>
-    <div class="container-fluid">
-        <h1>Web Resources</h1>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Navigation</h3>
+            </div>
+            <p></p>
+            <ul class="list-unstyled components">
+                <li><a href="../index.html">Home</a></li>
+                <li class="active"><a href="webresources.html">Web Resources</a></li>
+            </ul>
+        </nav>
+        <div class="container-fluid">
+            <h1>Web Resources</h1>
 
-        <ul>
-            <li><p><a href="https://www.w3schools.com/">W3Schools</a><br>
-            W3Schools is a great resource as an introduction to everything needed to make good web sites/apps, and is a good reference even for experienced developers.
-            The site has tutorials and reference material for all kinds of languages used in web development. Anyone doing web development will find this site useful.
-            I use W3Schools as a reference for languages or frameworks that I don't use very often, like HTML, CSS, and Node. <br>
-            <strong>Rating:</strong> 5 out of 5
-            </p></li>
-            <li><p><a href=""></a></p></li>
-            <li><p><a href=""></a></p></li>
-            <li><p><a href=""></a></p></li>
-            <li><p><a href=""></a></p></li>
-        </ul>
-        <p><a href="../index.html">Back to Index</a></p>
+            <ul>
+                <li><p><a href="https://www.w3schools.com/">W3Schools</a><br>
+                W3Schools is a great resource as an introduction to everything needed to make good web sites/apps, and is a good reference even for experienced developers.
+                The site has tutorials and reference material for all kinds of languages used in web development. Anyone doing web development will find this site useful.
+                I use W3Schools as a reference for languages or frameworks that I don't use very often, like HTML, CSS, and Node. <br>
+                <strong>Rating:</strong> 5 out of 5
+                </p></li>
+                <li><p><a href="https://stackoverflow.com/">Stack Overflow</a><br>
+                Stack Overflow is probably the most essential site out there for any developer, web or not. Like W3Schools, you've probably run into it already if you've ever
+                googled for answers to a programming question you've had. Stack Overflow is a Q&A site where programmers will post questions and get answers from the wide
+                community of other programmers who frequent the site. Usually you can search for your question on the site and find it already answered, but if not, feel free
+                to ask away! I use this site for everything, but especially for answering larger questions like the right way to implement some feature or another. <br>
+                <strong>Rating:</strong> 6 out of 5
+                </p></li>
+                <li><p><a href="https://developer.mozilla.org/en-US/docs/Web">Mozilla - Web Technology for Developers</a><br>
+                Mozilla has its own reference site for web developers, somewhat similar to W3Schools. They've got documentation for javascript, CSS, and HTML,
+                and some web APIs, as well as tutorials. I use the site whenever W3Schools falls short, or when I'm looking for a more detailed tutorial, like when I was
+                trying to figure out JS promises.<br>
+                <strong>Rating:</strong> 4 out of 5
+                </p></li>
+                <li><p><a href="https://getbootstrap.com/">Bootstrap</a><br>
+                The most popular front end framework in the world! Yes, this one's obvious, but so is W3Schools and Stack Overflow. Bootstrap provides all the CSS 
+                so you don't have to write it! It's everything you need to make a modern-looking, responsive website with minimum effort. They also have a mountain of
+                documentation for all the features you could possibly want to use.I'm not interested in front-end web dev, so I use it whenever I can, 
+                and definitely would have used it on this page even if it weren't required.<br>
+                <strong>Rating:</strong> 10 out of 10, lets me be lazy
+                </p></li>
+                <li><p><a href="https://html5boilerplate.com/">HTML5 Boilerplate</a><br>
+                Similar to Bootstrap, HTML5 Boilerplate is a front-end framework that provides shortcuts for making a website. Unlike Bootstrap, H5BP comes with a
+                whole template to build your site off of, following current best practices. It even comes with apache server configs for best performance. If you want,
+                you can even switch out Boilerplate's CSS/JS for Bootstrap's with a little tinkering. You might be noticing a theme here, which is front-end frameworks
+                that do things for you. Well, I love anything that lessens the amount of HTML and CSS I have to write. I guess my ideal web development 
+                resource would be a front-end developer who does all this UI stuff for me.<br>
+                <strong>Rating:</strong> 5 outta 5
+                </p></li>
+                <li><p><a href="https://webfieldmanual.com/code">Web Field Manual</a><br>
+                This is actually a list of links to resources on everything you need to know for web development. From general best practices to references and guides
+                to help you write good HTML, CSS, and Javascript, this site has it all! It's basically like this list, but far more comprehensive. I'll be using this a lot,
+                or more accurately: I'll be using the linked material on this site whenever I want tips or a guide on how to properly do any element of web development. 
+                At this very moment, I have a guide to git that I found in the Web Field Manual open in my browser.<br>
+                <strong>Rating:</strong> 5 out of 5
+                </p></li>
+            </ul>
+            <p><a href="../index.html">Back to Index</a></p>
+        </div>
     </div>
 </body>
 </html>

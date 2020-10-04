@@ -6,20 +6,35 @@
     <meta name="keywords" content="ISIT320, CSS, HTML">
     <meta name="description" content="This is a description.">
     <meta name="author" content="Carl Nelson">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!--Bootstrap ensures that your webpage displays a sans-serif font on all possible devices and browsers, so that part is already handled!-->
+    
+    <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </head>
 <body>
-    <div class="container-fluid">
-        <h1>Carl's Web App</h1>
-        <img src="img/profilepicture.jpg" alt="A round-faced cat stares into your soul" width="50px" height="50px">
-        <p>Welcome to my new low-effort web profile. I'm Carl Nelson, and I'm a student at Bellevue College.</p>
-        <p>There really isn't much else to say about me at the moment.</p>
-        <p><a href="html/webresources.html">Web Resources</a></p>
+    <div class="wrapper">
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Navigation</h3>
+            </div>
+            <p></p>
+            <ul class="list-unstyled components">
+                <li class="active"><a href="../index.html">Home</a></li>
+                <li><a href="webresources.html">Web Resources</a></li>
+            </ul>
+        </nav>
+        <div class="container-fluid">
+            <h1>Carl's Web App</h1>
+            <img src="img/profilepicture.jpg" alt="A round-faced cat stares into your soul" width="50px" height="50px">
+            <p>Welcome to my new low-effort web profile. I'm Carl Nelson, and I'm a student at Bellevue College.</p>
+            <p>There really isn't much else to say about me at the moment.</p>
+            <p><a href="html/webresources.html">Web Resources</a></p>
+        </div>
     </div>
 </body>
 </html>
